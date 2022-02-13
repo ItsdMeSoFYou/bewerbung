@@ -287,6 +287,10 @@ hr {
     width: 70%;
     margin: 10%;
   }
+  .images-galery {
+    width: 70%;
+    margin-left: 7%;
+  }
 }
 
 @media only screen and (max-aspect-ratio: 10/16) {
@@ -309,5 +313,9 @@ hr {
     #toggle:checked+.menu {
       margin-top: 13%;
       margin-right: 0;
+    }
+    .images-galery {
+      width: 90%;
+      margin-left: 1%;
     }
 }
