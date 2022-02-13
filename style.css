@@ -1,0 +1,280 @@
+html {
+  font-family: regulator-nova, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.index-body {
+  background-image: url(background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding-left: 5%;
+  padding: 1%;
+  background-color: #000000;
+}
+
+h1 {
+  margin: auto;
+  font-size: 400%;
+  font-weight: 200;
+  float: left;
+}
+
+.h1 {
+  color: #ffffff;
+}
+
+div {
+  display: block;
+}
+
+.nav {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+
+.menu {
+  margin: 0 3% 0 0;
+}
+
+.menu a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 3px;
+  font-size: 150%;
+  border-radius: 3px;
+}
+
+.menu a {
+  color: #ffffff;
+  font-size: 150%;
+  margin: 0 1%;
+  padding: 3px;
+}
+
+label {
+  margin: 0 2% 0 0;
+  font-size: 200%;
+  color: #ffffff;
+  line-height: 70px;
+  display: none;
+}
+
+#toggle {
+  display: none;
+}
+
+.center-text {
+  margin-top: 10%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-weight: 200;
+}
+
+span.border-upper {
+  color: #ffffff;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 0.5%;
+  font-family: regulator-nova, sans-serif;
+  font-size: 300%;
+  background-color: rgba(89, 89, 89, 0.7);
+  border-radius: 5px 5px 0px 0px;
+  display: inline-block;
+}
+
+span.border {
+  color: #ffffff;
+  padding: 0.5%;
+  font-size: 300%;
+  background-color: rgba(89, 89, 89, 0.7);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.about-me {
+  padding-top: 2%;
+  background-color: #efede3;
+  margin-top: 35%;
+  padding-bottom: 3%;
+}
+
+.titles {
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 100%;
+  font-size: 300%;
+  font-weight: 200;
+}
+
+.about-me-text {
+  padding-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 150%;
+}
+
+.projects {
+  padding-top: 2%;
+  background-color: #2f2f2f;
+  padding-bottom: 3%;
+}
+
+.project-images {
+  padding-top: 3%;
+  margin-left: 8%;
+}
+
+.images {
+  width: 20%;
+  margin: 1%;
+  float: inherit;
+  border-radius: 2px;
+  transition: opacity 0.5s;
+}
+
+.images:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  padding: 2% 5%;
+  background-color: #ffffff;
+}
+
+.footer-text {
+  color: #b7b7b7;
+  text-align: center;
+}
+
+.footer a {
+  color: #000000;
+  font-size: 120%;
+}
+
+
+/*Beginn non index */
+.non-main {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  width: 100% display: inline-block;
+  background-color: #ffffff;
+}
+
+.non-main-header {
+  font-weight: 200;
+  font-size: 500%;
+  margin-left: 5%;
+}
+.subheading {
+  font-weight: 200;
+  font-size: 200%;
+  margin-left: 7%;
+}
+.impressum-text {
+  padding: 5%;
+  font-size: 120%;
+  margin-left: 10%
+}
+
+.images-galery {
+  width: 40%;
+  margin: 1%;
+  border-radius: 2px;
+}
+
+.name {
+  font-weight: 500;
+}
+.videos {
+  margin-left: 8%;
+}
+
+video {
+  width: 45%;
+  margin: 0 1% 5% 1%;
+}
+
+.adress {
+  font-weight: 200;
+  margin-top: 2%;
+}
+
+.bottomtext{
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+hr {
+  margin: 0;
+}
+/*Beginn des responsive Design*/
+@media only screen and (max-aspect-ratio: 1/1) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    text-align: right;
+    width: 300px;
+    display: none;
+    float: right;
+    overflow: auto;
+    padding-top: 1%;
+  }
+
+  .menu a {
+    display: block;
+    margin: 0;
+    padding-right: 5%;
+  }
+
+  #toggle:checked+.menu {
+    text-align: right;
+    margin-top: 0.1%;
+    display: block;
+    background-color: #000000;
+    right: 10px;
+    border-radius: 3px;
+    position: absolute;
+  }
+
+  .menu a:hover {
+    padding-right: 5%;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .center-text {
+    margin-top: 40%;
+  }
+
+  .about-me {
+    margin-top: 75%;
+  }
+
+  .images {
+    width: 40%;
+  }
+  video {
+    width: 70%;
+    margin: 10%;
+  }
+
+}
