@@ -50,7 +50,7 @@ div {
 }
 
 .menu {
-  margin: 0 3% 0 0;
+  margin-right: 3%;
 }
 
 .menu a:hover {
@@ -298,6 +298,7 @@ hr {
     width: 200px;
   }
   label {
+    margin-top: 7%;
   }
   span.title {
     margin-left: 5%;
@@ -305,4 +306,8 @@ hr {
   .about-me {
     margin-top: 100%;
   }
+    #toggle:checked+.menu {
+      margin-top: 13%;
+      margin-right: 0;
+    }
 }
