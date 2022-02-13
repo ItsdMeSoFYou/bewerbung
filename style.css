@@ -32,6 +32,7 @@ h1 {
   font-weight: 200;
   float: left;
   cursor: default;
+  color: #ffffff;
 }
 
 .h1 {
@@ -173,7 +174,8 @@ span.border {
 .non-main {
   padding-top: 2%;
   padding-bottom: 5%;
-  width: 100% display: inline-block;
+  width: 100%;
+  display: inline-block;
   background-color: #ffffff;
 }
 
@@ -190,7 +192,7 @@ span.border {
 .impressum-text {
   padding: 5%;
   font-size: 120%;
-  margin-left: 10%
+  margin-left: 10%;
 }
 
 .images-galery {
@@ -223,6 +225,10 @@ video {
 
 hr {
   margin: 0;
+}
+
+.pointer {
+  cursor: default;
 }
 /*Beginn des responsive Design*/
 @media only screen and (max-aspect-ratio: 1/1) {
