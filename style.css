@@ -169,7 +169,6 @@ span.border {
   font-size: 120%;
 }
 
-
 /*Beginn non index */
 .non-main {
   padding-top: 2%;
@@ -184,11 +183,13 @@ span.border {
   font-size: 500%;
   margin-left: 5%;
 }
+
 .subheading {
   font-weight: 200;
   font-size: 200%;
   margin-left: 7%;
 }
+
 .impressum-text {
   padding: 5%;
   font-size: 120%;
@@ -204,6 +205,7 @@ span.border {
 .name {
   font-weight: 500;
 }
+
 .videos {
   margin-left: 8%;
 }
@@ -218,7 +220,7 @@ video {
   margin-top: 2%;
 }
 
-.bottomtext{
+.bottomtext {
   text-align: center;
   margin-bottom: 1%;
 }
@@ -230,6 +232,7 @@ hr {
 .pointer {
   cursor: default;
 }
+
 /*Beginn des responsive Design*/
 @media only screen and (max-aspect-ratio: 1/1) {
   label {
@@ -279,9 +282,27 @@ hr {
   .images {
     width: 40%;
   }
+
   video {
     width: 70%;
     margin: 10%;
   }
+}
 
+@media only screen and (max-width: 530px) {
+  .header {
+    height: 170px;
+  }
+  h1 {
+    margin-left: 5%;
+    width: 200px;
+  }
+  label {
+  }
+  span.title {
+    margin-left: 5%;
+  }
+  .about-me {
+    margin-top: 100%;
+  }
 }
