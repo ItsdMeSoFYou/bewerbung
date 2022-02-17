@@ -11,9 +11,9 @@ body {
 
 .index-body {
   background-image: url(background.webp);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 a {
@@ -296,6 +296,10 @@ hr {
 }
 
 @media only screen and (max-aspect-ratio: 10/16) {
+  .index-body{
+      background-position: top;
+      background-size: 300%;
+  }
   .header {
     height: 170px;
   }
