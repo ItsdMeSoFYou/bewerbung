@@ -325,3 +325,25 @@ hr {
       margin-left: 1%;
     }
 }
+@media only screen and (max-width: 550px) {
+  .header {
+    height: 170px;
+  }
+  h1 {
+    margin-left: 5%;
+    width: 200px;
+  }
+  label {
+    margin-top: 7%;
+  }
+  span.title {
+    margin-left: 5%;
+  }
+  .about-me {
+    margin-top: 100%;
+  }
+    #toggle:checked+.menu {
+      margin-top: 13%;
+      margin-right: 0;
+    }
+}
