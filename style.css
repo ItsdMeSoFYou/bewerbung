@@ -234,6 +234,14 @@ hr {
 .pointer {
   cursor: default;
 }
+.video-text {
+  float: right;
+  width: 40%;
+  text-align: right;
+  margin-right: 10%;
+  font-size: 120%;
+  font-weight: 200;
+}
 
 /*Beginn des responsive Design*/
 @media only screen and (max-aspect-ratio: 1/1) {
@@ -292,6 +300,9 @@ hr {
   .images-galery {
     width: 70%;
     margin-left: 7%;
+  }
+  video-text {
+    float: center;
   }
 }
 
