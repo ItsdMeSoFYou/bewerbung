@@ -1,6 +1,5 @@
 html {
   font-family: regulator-nova, sans-serif;
-  letter-spacing: 0.07em;
   scroll-behavior: smooth;
 }
 
@@ -222,6 +221,7 @@ video {
 .adress {
   font-weight: 200;
   margin-top: 2%;
+  letter-spacing: 0.06em;
 }
 
 .bottomtext {
